@@ -42,6 +42,28 @@ $\begin{aligned}
 $a_n = -n -7$
 
 ## b
+1. The default form is
+
+	$a_n = 2a_{n - 1}$
+
+2. The characteristic equation is
+
+	$r - c_1 = 0$
+
+3. Find root $r$.
+
+	$r = c_1 = 2$
+
+4. The general solution is
+
+	$a_n = \alpha_1 2^n$
+
+5. The particular solution is
+
+	$a_n = -n -7$
+
+6. $a_n = \alpha_1 2^n -n -7$
+
 ## c
 
 # 10
