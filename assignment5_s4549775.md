@@ -123,6 +123,28 @@ $s$ is a root of the recurrence relation with multiplicity 2, therefore the part
 
 # 11
 ## a
+1. The default form is
+
+	$a_n = -5a_{n - 1} -6a_{n - 2} + 42 * 4^n$
+
+2. The characteristic equation is
+
+	$\begin{aligned}
+		r^2 - c_1 r - c_2 &= 0\\
+		r^2 + 5 r + 6 &= 0
+	\end{aligned}$
+
+3. Find the roots $r_i$.
+
+	$\begin{aligned}
+		r_{1, 2} &= -\frac{5}{2} \pm \sqrt{(\frac{5}{2})^2 - 6}\\
+		r_{1, 2} &= -2.5 \pm \sqrt{\frac{25}{4} - 6}\\
+		r_{1, 2} &= -2.5 \pm \sqrt{\frac{1}{4}}\\
+		r_{1, 2} &= -2.5 \pm \frac{1}{2}
+	\end{aligned}$
+
+	$r_1 = -2, r_2 = -3$
+
 ## b
 
 # 12
