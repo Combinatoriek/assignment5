@@ -186,7 +186,10 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 
 	$a_n = -2^n$
 
-6. $a_n = \alpha_1 r_1^n + \alpha_2 r_2^n -2^n$
+6. $\begin{aligned}
+	a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n -2^n\\
+	&= \alpha_1 (-2)^n + \alpha_2 (-3)^n -2^n
+\end{aligned}$
 
 ## b
 
