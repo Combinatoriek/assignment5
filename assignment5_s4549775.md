@@ -192,6 +192,19 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 \end{aligned}$
 
 ## b
+$\begin{aligned}
+	56 &= \alpha_1 (-2)^1 + \alpha_2 (-3)^1 + (-2)^1\\
+	&= -2 \alpha_1 -3 \alpha_2 - 2\\
+	58 &= -2 \alpha_1 -3 \alpha_2
+\end{aligned}$
+
+$\begin{aligned}
+	278 &= \alpha_1 (-2)^2 + \alpha_2 (-3)^2 + (-2)^2\\
+	&= 4 \alpha_1 + 9 \alpha_2 + 4\\
+	274 &= 4 \alpha_1 + 9 \alpha_2
+\end{aligned}$
+
+$\alpha_1 = , \alpha_2 =$
 
 # 12
 1. The default form is
