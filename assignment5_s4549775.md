@@ -89,17 +89,17 @@ First we find the roots of the homogeneous part
 
 3. Find the roots $r_i$.
 
-	$x^2 + 8x + 16$ for $x = r^2$
+	$x^2 - 8x + 16$ for $x = r^2$
 
 	$\begin{aligned}
-		x_{1, 2} &= -\frac{8}{2} \pm \sqrt{(\frac{8}{2})^2 - 16}\\
-		x_{1, 2} &= -4 \pm \sqrt{4^2 - 16}\\
-		x_{1, 2} &= -4
+		x_{1, 2} &= -\frac{-8}{2} \pm \sqrt{(\frac{-8}{2})^2 - 16}\\
+		x_{1, 2} &= 4 \pm \sqrt{4^2 - 16}\\
+		x_{1, 2} &= 4
 	\end{aligned}$
 
-	$x_1 = -4$ for $x_1 = r^2$, so $r_1 = 2, r_2 = -2$
+	$x_1 = 4$ for $x_1 = r^2$, so $r_1 = 2, r_2 = -2$
 
-	$x_2 = -4$ for $x_2 = r^2$, so $r_3 = 2, r_4 = -2$
+	$x_2 = 4$ for $x_2 = r^2$, so $r_3 = 2, r_4 = -2$
 
 Now we rewrite $F(n)$:
 
