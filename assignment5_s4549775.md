@@ -115,6 +115,11 @@ $F(n) = b_2 n^2 s^n, b_2 = 1, s = 4$
 $s$ is not a root the the recurrence relation (see (a)), therefore the particular solution is of the form $p_2 n^2 4^n$.
 
 ## c
+We rewrite $F(n)$:
+
+$F(n) = b_4 n^4 s^n, b_4 = 1, s = 2$
+
+$s$ is a root of the recurrence relation with multiplicity 2, therefore the particular solution is of the form $n^2 b_4 n^4 2^n$.
 
 # 11
 ## a
