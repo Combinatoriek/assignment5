@@ -65,6 +65,11 @@ $a_n = -n -7$
 6. $a_n = \alpha_1 2^n -n -7$
 
 ## c
+$\begin{aligned}
+	\alpha_1 2^0 -0 -7 &= 4\\
+	\alpha_1 -7 &= 4\\
+	\alpha_1 &= 11
+\end{aligned}$
 
 # 10
 ## a
