@@ -204,7 +204,9 @@ $\begin{aligned}
 	274 &= 4 \alpha_1 + 9 \alpha_2
 \end{aligned}$
 
-$\alpha_1 = , \alpha_2 =$
+$\alpha_1 = -224, \alpha_2 = 130$
+
+$a_n = -224 (-2)^n + 130 (-3)^n + (-2)^n$
 
 # 12
 1. The default form is
