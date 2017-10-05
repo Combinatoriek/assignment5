@@ -239,5 +239,9 @@ $a_n = -224 (-2)^n + 130 (-3)^n + (-2)^n$
 
 # 13
 ## a
+$s_1 = 1$, because 0 is even. If we do not use a blue marble the requirement is fulfilled, and we only have 1 marble in total. We can select a yellow or red marble, and put it into 1 bag.
+
+$s_2 = 2$. We can use 2 marbles selected from the yellow and red ones, and put them in 2 different bags. Using 2 blue marbles we cannot match or surpass this, because we need to put them into the same bag.
+
 ## b
 ## c
