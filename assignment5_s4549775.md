@@ -194,6 +194,33 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 ## b
 
 # 12
+1. The default form is
+
+	$a_n = 4a_{n - 1} -3a_{n - 2} + 2^n$ + n + 3
+
+2. The characteristic equation is
+
+	$\begin{aligned}
+		r^2 - c_1 r - c_2 &= 0\\
+		r^2 - 4 r + 3 &= 0
+	\end{aligned}$
+
+3. Find the roots $r_i$.
+
+	$\begin{aligned}
+		r_{1, 2} &= -\frac{-4}{2} \pm \sqrt{(\frac{-4}{2})^2 - 3}\\
+		&= 2 \pm \sqrt{\frac{16}{4} - 3}\\
+		&= 2 \pm 1
+	\end{aligned}$
+
+	$r_1 = 1, r_2 = 3$
+
+4. The general solution is
+
+	$\begin{aligned}
+		a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
+		&= \alpha_1 + \alpha_2 3^n
+	\end{aligned}$
 
 # 13
 ## a
