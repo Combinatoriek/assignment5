@@ -145,6 +145,49 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 
 	$r_1 = -2, r_2 = -3$
 
+4. The general solution is
+
+	$a_n = \alpha_1 r_1^n + \alpha_2 r_2^n$
+
+5. Find a particular solution
+
+	$a_n = A^n + B$
+
+	$a_{n - 1} = A^{n - 1} + B$
+
+	$a_{n - 2} = A^{n - 2} + B$
+
+	$\begin{aligned}
+		A^n + B &= -5(A^{n - 1} + B) -6(A^{n - 2} + B)\\
+		&= -5A^{n - 1} -5B -6A^{n - 2} -6B\\
+		&= -5A^{n - 1} -6A^{n - 2} -11B
+	\end{aligned}$
+
+	$\begin{aligned}
+		A^n &= -5A^{n - 1} -6A^{n - 2}\\
+		&= A^{n - 2}(-5A -6)\\
+		A^2 &= -5A - 6\\
+		A^2 + 5A + 6 &= 0
+	\end{aligned}$
+
+	$\begin{aligned}
+		A_{1, 2} &= -\frac{5}{2} \pm \sqrt{(\frac{5}{2})^2 - 6}\\
+		&= -2.5 \pm \sqrt{\frac{25}{4} - 6}\\
+		&= -2.5 \pm \sqrt{\frac{1}{4}}\\
+		&= -2.5 \pm \frac{1}{2}
+	\end{aligned}$
+
+	$A_1 = -2, A_2 = -3$
+
+	$\begin{aligned}
+		B &= -11B\\
+		&= 0
+	\end{aligned}$
+
+	$a_n = -2^n$
+
+6. $a_n = \alpha_1 r_1^n + \alpha_2 r_2^n -2^n$
+
 ## b
 
 # 12
