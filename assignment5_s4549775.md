@@ -105,7 +105,7 @@ Now we rewrite $F(n)$:
 
 $F(n) = b_0 * s^n, b_0 = 1, s = -2$
 
-$s$ is a root of the recurrence relation with multiplicity 2, therefore the particular solution is of the form $p_0 n^2 (-2)^n$.
+$s$ is a root of the recurrence relation with multiplicity 2, therefore the particular solution is of the form $n^2 p_0 (-2)^n$.
 
 ## b
 We rewrite $F(n)$:
