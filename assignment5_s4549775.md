@@ -181,20 +181,18 @@ $\begin{aligned}
 
 ## b
 $\begin{aligned}
-	56 &= \alpha_1 (-2)^1 + \alpha_2 (-3)^1 + (-2)^1\\
-	&= -2 \alpha_1 -3 \alpha_2 - 2\\
-	58 &= -2 \alpha_1 -3 \alpha_2
+	56 &= \alpha_1 (-2)^1 + \alpha_2 (-3)^1 + 4^3\\
+	-8 &= -2 \alpha_1 + -3 \alpha_2
 \end{aligned}$
 
 $\begin{aligned}
-	278 &= \alpha_1 (-2)^2 + \alpha_2 (-3)^2 + (-2)^2\\
-	&= 4 \alpha_1 + 9 \alpha_2 + 4\\
-	274 &= 4 \alpha_1 + 9 \alpha_2
+	278 &= \alpha_1 (-2)^2 + \alpha_2 (-3)^2 + 4^4\\
+	22 &= 4 \alpha_1 + 9 \alpha_2
 \end{aligned}$
 
-$\alpha_1 = -224, \alpha_2 = 130$
+$\alpha_1 = 1, \alpha_2 = 2$
 
-$a_n = -224 (-2)^n + 130 (-3)^n + (-2)^n$
+$a_n = 1 (-2)^n + 2 (-3)^n + 4^{n + 2}$
 
 # 12
 1. The default form is
