@@ -276,13 +276,13 @@ $s_2 = 2$. We can use 2 marbles selected from the yellow and red ones, and put t
 	\end{aligned}$
 
 	$\begin{aligned}
-		a_n &= n (p_1 n + p_0)\\
+		t_n &= n (p_1 n + p_0)\\
 		&= p_1 n^2 + p_0 n\\
-		a_{n - 1} &= (n - 1) (p_1 (n - 1) + p_0)\\
+		t_{n - 1} &= (n - 1) (p_1 (n - 1) + p_0)\\
 		&= (n - 1) (p_1 n - p_1 + p_0)\\
 		&= p_1 n^2 - p_1 n + p_0 n - p_1 n + p_1 - p_0\\
 		&= p_1 n^2 - 2p_1 n + p_0 n + p_1 - p_0\\
-		a_{n - 2} &= (n - 2) (p_1 (n - 2) + p_0)\\
+		t_{n - 2} &= (n - 2) (p_1 (n - 2) + p_0)\\
 		&= (n - 2) (p_1 n - 2 p_1 + p_0)\\
 		&= p_1 n^2 -2 p_1 n + p_0 n -2 p_1 n + 4 p_1 - 2 p_0\\
 		&= p_1 n^2 -4 p_1 n + p_0 n + 4 p_1 -2 p_0\\
