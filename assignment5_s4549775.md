@@ -112,7 +112,7 @@ We rewrite $F(n)$:
 
 $F(n) = b_2 n^2 s^n, b_2 = 1, s = 4$
 
-$s$ is not a root the the recurrence relation (see (a)), therefore the particular solution is of the form $p_2 n^2 4^n$.
+$s$ is not a root the the recurrence relation (see (a)), therefore the particular solution is of the form $(p_2 n^2 + p_1 n + p_0) 4^n$.
 
 ## c
 We rewrite $F(n)$:
