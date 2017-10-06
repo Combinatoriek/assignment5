@@ -119,7 +119,7 @@ We rewrite $F(n)$:
 
 $F(n) = b_4 n^4 s^n, b_4 = 1, s = 2$
 
-$s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefore the particular solution is of the form $n^2 b_4 n^4 2^n = b_4 n^6 2^n$.
+$s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefore the particular solution is of the form $(p_4 n^4 + p_3 n^2 + p_2 n^2 + p_1 n + p_0) * 2^n$.
 
 # 11
 ## a
