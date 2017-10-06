@@ -223,6 +223,16 @@ $a_n = 1 (-2)^n + 2 (-3)^n + 4^{n + 2}$
 		&= \alpha_1 + \alpha_2 3^n
 	\end{aligned}$
 
+5. Find a particular solution.
+
+	We can use *Theorem 6* twice.
+
+	$\begin{aligned}
+		F(n) &= F_1(n) + F_2(n)\\
+		F_1(n) &= b_0 s^n, b_0 = 1, s = 2\\
+		F_2(n) &= (b_1 n + b_0) s^n, b_1 = 1, b_0 = 3, s = 1
+	\end{aligned}$
+
 # 13
 ## a
 $s_1 = 1$, because 0 is even. If we do not use a blue marble the requirement is fulfilled, and we only have 1 marble in total. We can select a yellow or red marble, and put it into 1 bag.
