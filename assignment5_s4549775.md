@@ -267,3 +267,23 @@ $s_2 = 2$. We can use 2 marbles selected from the yellow and red ones, and put t
 		a_n^{(h)} &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
 		&= \alpha_1 + \alpha_2 (-1)^n\\
 	\end{aligned}$
+
+5. Find a particular solution
+
+	$\begin{aligned}
+		F(n) &= (b_1 n + b_0) s^n & b_1 = 1, b_0 = 1, s = 1\\
+		&= n + 1\\
+	\end{aligned}$
+
+	$\begin{aligned}
+		a_n &= n (p_1 n + p_0)\\
+		&= p_1 n^2 + p_0 n\\
+		a_{n - 1} &= (n - 1) (p_1 (n - 1) + p_0)\\
+		&= (n - 1) (p_1 n - p_1 + p_0)\\
+		&= p_1 n^2 - p_1 n + p_0 n - p_1 n + p_1 - p_0\\
+		&= p_1 n^2 - 2p_1 n + p_0 n + p_1 - p_0\\
+		a_{n - 2} &= (n - 2) (p_1 (n - 2) + p_0)\\
+		&= (n - 2) (p_1 n - 2 p_1 + p_0)\\
+		&= p_1 n^2 -2 p_1 n + p_0 n -2 p_1 n + 4 p_1 - 2 p_0\\
+		&= p_1 n^2 -4 p_1 n + p_0 n + 4 p_1 -2 p_0\\
+	\end{aligned}$
