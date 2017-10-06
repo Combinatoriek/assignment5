@@ -219,7 +219,7 @@ $a_n = 1 (-2)^n + 2 (-3)^n + 4^{n + 2}$
 4. The general solution is
 
 	$\begin{aligned}
-		a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
+		a_n^{(h)} &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
 		&= \alpha_1 + \alpha_2 3^n
 	\end{aligned}$
 
