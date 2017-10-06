@@ -147,7 +147,10 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 
 4. The general solution is
 
-	$a_n = \alpha_1 r_1^n + \alpha_2 r_2^n$
+	$\begin{aligned}
+		a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
+		&= \alpha_1 (-2)^n + \alpha_2 (-3)^n
+	\end{aligned}$
 
 5. Find a particular solution
 
