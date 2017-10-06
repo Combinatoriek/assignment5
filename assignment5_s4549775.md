@@ -243,3 +243,27 @@ $s_2 = 2$. We can use 2 marbles selected from the yellow and red ones, and put t
 
 ## b
 ## c
+
+1. The default form is
+
+	$t_n = 0t_{n - 1} + 1t_{n - 2} + n + 1$
+
+2. The characteristic equation is
+
+	$\begin{aligned}
+		r^2 - 0 r - 1 &= 0\\
+		r^2 - 1 &= 0\\
+	\end{aligned}$
+
+3. Find the roots $r_i$.
+
+	$r^2 = 1$
+
+	$r_1 = 1, r_2 = -1$
+
+4. The general solution is
+
+	$\begin{aligned}
+		a_n^{(h)} &= \alpha_1 r_1^n + \alpha_2 r_2^n\\
+		&= \alpha_1 + \alpha_2 (-1)^n\\
+	\end{aligned}$
