@@ -154,44 +154,29 @@ $s$ is a root of the recurrence relation with multiplicity 2 (see (a)), therefor
 
 5. Find a particular solution
 
-	$a_n = A^n + B$
-
-	$a_{n - 1} = A^{n - 1} + B$
-
-	$a_{n - 2} = A^{n - 2} + B$
+	We can use *Theorem 6*: $F(n) = b_0 s^n, b_0 = 42, s = 4$
 
 	$\begin{aligned}
-		A^n + B &= -5(A^{n - 1} + B) -6(A^{n - 2} + B)\\
-		&= -5A^{n - 1} -5B -6A^{n - 2} -6B\\
-		&= -5A^{n - 1} -6A^{n - 2} -11B
+		a_n &= p_0 4^n\\
+		a_{n - 1} &= p_0 4^{n - 1}\\
+		a_{n - 2} &= p_0 4^{n - 2}
 	\end{aligned}$
 
 	$\begin{aligned}
-		A^n &= -5A^{n - 1} -6A^{n - 2}\\
-		&= A^{n - 2}(-5A -6)\\
-		A^2 &= -5A - 6\\
-		A^2 + 5A + 6 &= 0
+		p_0 4^n &= -5p_0 4^{n - 1} -6p_0 4^{n - 2} + 42 * 4^n\\
+		p_0 4^2 &= -5p_0 4 -6p_0 + 42 * 4^2\\
+		16 p_0 &= -20p_0 -6p_0 + 672\\
+		42 p_0 &= 672\\
+		p_0 &= 16
 	\end{aligned}$
 
-	$\begin{aligned}
-		A_{1, 2} &= -\frac{5}{2} \pm \sqrt{(\frac{5}{2})^2 - 6}\\
-		&= -2.5 \pm \sqrt{\frac{25}{4} - 6}\\
-		&= -2.5 \pm \sqrt{\frac{1}{4}}\\
-		&= -2.5 \pm \frac{1}{2}
-	\end{aligned}$
+	$a_n^{(p)} = 16 * 4^n$
 
-	$A_1 = -2, A_2 = -3$
+6. Add $a_n^{(h)}$ and $a_n^{(p)}$
 
-	$\begin{aligned}
-		B &= -11B\\
-		&= 0
-	\end{aligned}$
-
-	$a_n = (-2)^n$
-
-6. $\begin{aligned}
-	a_n &= \alpha_1 r_1^n + \alpha_2 r_2^n + (-2)^n\\
-	&= \alpha_1 (-2)^n + \alpha_2 (-3)^n + (-2)^n
+$\begin{aligned}
+	a_n &= \alpha_1 (-2)^n + \alpha_2 (-3)^n + 16 * 4^n\\
+	&= \alpha_1 (-2)^n + \alpha_2 (-3)^n + 4^{n + 2}
 \end{aligned}$
 
 ## b
